@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title> • The Flypitch project</title>
+    
+    
+    
+    	<!-- Twitter Cards -->
+	<meta name="twitter:title" content="">
+	
+	
+	
+	
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:image" content="https://flypitch.github.io/images/flypitch2.svg">
+	
+	<!-- Open Graph -->
+	<meta property="og:locale" content="">
+	<meta property="og:type" content="article">
+	<meta property="og:title" content="">
+	
+	<meta property="og:url" content="https://flypitch.github.io/download/">
+	<meta property="og:site_name" content="The Flypitch project">
+
+    <link rel="canonical" href="https://flypitch.github.io/download/">
+
+    <link href="https://flypitch.github.io/atom.xml" type="application/atom+xml" rel="alternate" title="The Flypitch project Atom Feed">
+    <link href="https://flypitch.github.io/sitemap.xml" type="application/xml" rel="sitemap" title="Sitemap">
+
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="cleartype" content="on">
+
+    <link rel="stylesheet" href="https://flypitch.github.io/css/main.css">
+    <!-- HTML5 Shiv and Media Query Support for IE -->
+    <!--[if lt IE 9]>
+      <script src="https://flypitch.github.io/js/vendor/html5shiv.min.js"></script>
+      <script src="https://flypitch.github.io/js/vendor/respond.min.js"></script>
+    <![endif]-->
+
+  </head>
+
+  <body id="js-body">
+    <!--[if lt IE 9]><div class="upgrade notice-warning"><strong>Your browser is quite old!</strong> Why not <a href="http://whatbrowser.org/">upgrade to a newer one</a> to better enjoy this site?</div><![endif]-->
+
+    <header id="masthead">
+  <div class="inner-wrap">
+    <a href="https://flypitch.github.io/" class="site-title"><img src="/images/flypitch2.svg"/></a>
+    <nav role="navigation" class="menu top-menu">
+        <ul class="menu-item">
+	<li class="home"><a href="/">The Flypitch project</a></li>
+	
+    
+    <li><a href="https://flypitch.github.io/about/" >About</a></li>
+  
+    
+    <li><a href="https://flypitch.github.io/people/" >Team</a></li>
+  
+    
+    <li><a href="https://flypitch.github.io/download/" >Download</a></li>
+  
+    
+    <li><a href="https://flypitch.github.io/papers/" >Papers</a></li>
+  
+</ul>
+    </nav>
+  </div><!-- /.inner-wrap -->
+</header><!-- /.masthead -->
+
+    <!-- <nav role="navigation" id="js-menu" class="sliding-menu-content"> -->
+<!--   <h5>The Flypitch project <span></span></h5> -->
+<!--   <ul class="menu-item"> -->
+<!--     <li> -->
+<!--       <a href="https://flypitch.github.io/about/"> -->
+<!--          -->
+<!--         <div class="title">About</div> -->
+<!--         <p class="excerpt">About the Flypitch project</p> -->
+<!--       </a> -->
+<!--     </li><li> -->
+<!--       <a href="https://flypitch.github.io/people/"> -->
+<!--          -->
+<!--         <div class="title">Team</div> -->
+<!--         <p class="excerpt">The Flypitch team</p> -->
+<!--       </a> -->
+<!--     </li><li> -->
+<!--       <a href="https://flypitch.github.io/download/"> -->
+<!--          -->
+<!--         <div class="title">Download</div> -->
+<!--         <p class="excerpt">How to download, compile, and view the project</p> -->
+<!--       </a> -->
+<!--     </li><li> -->
+<!--       <a href="https://flypitch.github.io/papers/"> -->
+<!--          -->
+<!--         <div class="title">Papers</div> -->
+<!--         <p class="excerpt">Papers and talks</p> -->
+<!--       </a> -->
+<!--     </li> -->
+<!--   </ul> -->
+<!-- </nav> -->
+<!-- <button type="button" id="js-menu-trigger" class="sliding-menu-button lines-button x2" role="button" aria-label="Toggle Navigation"> -->
+<!--   <span class="nav-lines"></span> -->
+<!-- </button> -->
+
+<!-- <div id="js-menu-screen" class="menu-screen"></div> -->
+
+
+    <div id="page-wrapper">
+      <div id="main" role="main">			
+	<div class="wrap">
+		
+		<div class="page-title">
+			<h1></h1>
+			
+		</div>
+		<div class="archive-wrap">
+			<div class="page-content">
+				<h2 id="download-and-installation">Download and installation</h2>
+<p>To download the Flypitch project, use any of the releases listed at the <a href="https://github.com/flypitch/flypitch">project repository</a>. To compile the Flypitch project, you will need <a href="https://leanprover.github.io/download/">Lean 3.4.2</a>. Installation instructions for Lean (using <code class="highlighter-rouge">elan</code>) can be found <a href="https://github.com/leanprover-community/mathlib/blob/master/docs/elan.md">here</a>.</p>
+
+<h3 id="building-the-project">Building the project</h3>
+<p>After cloning the repository to <code class="highlighter-rouge">flypitch</code>, navigate to <code class="highlighter-rouge">flypitch</code> and run</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>leanpkg configure
+leanpkg build
+</code></pre></div></div>
+
+<p>The <code class="highlighter-rouge">leanpkg.toml</code> file points to a certain commit of <code class="highlighter-rouge">mathlib</code>,<sup id="fnref:1"><a href="#fn:1" class="footnote">1</a></sup> which, during the build, will be cloned into the project directory.</p>
+
+<h2 id="viewing-the-project">Viewing the project</h2>
+<p>To view the project, we recommend the use of a Lean-aware editor like <a href="https://github.com/leanprover/lean-mode">Emacs</a> or <a href="https://github.com/leanprover/vscode-lean">VSCode</a>. Among other things, like typing information, such editors can display the <em>proof state</em> inside a tactic block, making it easier to understand how theorems are being proved.</p>
+
+<h2 id="navigating-the-project">Navigating the project</h2>
+
+<p>A summary of the main results can be found in <code class="highlighter-rouge">/src/summary.lean</code>, containing <code class="highlighter-rouge">#print</code> statements of important definitions and duplicated proofs of the main theorems. From there, one may use their editor’s jump-to-definition feature to trace the dependencies of the definitions and proofs. A more detailed summary can be found at the <a href="https://github.com/flypitch/flypitch">project repository</a>.</p>
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:1">
+      <p><code class="highlighter-rouge">mathlib</code> is Lean’s community-maintained <a href="https://github.com/leanprover-community/mathlib/">mathematical components library</a> <a href="#fnref:1" class="reversefootnote">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+
+			</div><!-- /.page-content -->
+		</div class="archive-wrap"><!-- /.archive-wrap -->
+	</div><!-- /.wrap -->
+</div><!-- /#main -->
+      <footer role="contentinfo" id="site-footer">
+	<nav role="navigation" class="menu bottom-menu">
+		<ul class="menu-item">
+		
+      
+			<li><a href="https://flypitch.github.io" ></a></li>
+		
+		</ul>
+	</nav><!-- /.bottom-menu -->
+	<p class="copyright">&#169; 2019 <a href="https://flypitch.github.io">The Flypitch project</a> powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> + <a href="http://mmistakes.github.io/skinny-bones-jekyll/" rel="nofollow">Skinny Bones</a>.</p>
+</footer>
+    </div>
+
+    <script src="https://flypitch.github.io/js/vendor/jquery-1.9.1.min.js"></script>
+    <script src="https://flypitch.github.io/js/main.js"></script>
+
+  </body>
+
+</html>
