@@ -1,1 +1,1 @@
-# flypitch.github.io
+# Homepage for the Flypitch project
