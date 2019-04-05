@@ -26,7 +26,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.7"
-     inkscape:cx="696.81322"
+     inkscape:cx="426.09893"
      inkscape:cy="76.556929"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
@@ -48,7 +48,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -57,16 +57,42 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(-37.703575,-85.844273)">
-    <text
-       xml:space="preserve"
+    <g
+       aria-label="FLYPITCH"
        style="font-style:normal;font-weight:normal;font-size:10.33308029px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.25832701"
-       x="31.669197"
-       y="131.22429"
-       id="text3850"><tspan
-         sodipodi:role="line"
-         id="tspan3848"
-         x="31.669197"
-         y="131.22429"
-         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:61.99848557px;font-family:Cantarell;-inkscape-font-specification:'Cantarell Light';fill:#9b0031;fill-opacity:1;stroke-width:0.25832701">FLYPITCH</tspan></text>
+       id="text3850">
+      <path
+         d="m 38.365034,131.22429 h 2.603936 v -21.76147 h 20.707494 v -2.23194 H 40.96897 V 90.429285 H 63.288425 V 88.19734 H 38.365034 Z"
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:61.99848557px;font-family:Cantarell;-inkscape-font-specification:'Cantarell Light';fill:#9b0031;fill-opacity:1;stroke-width:0.25832701"
+         id="path1538" />
+      <path
+         d="m 72.754819,131.22429 h 22.443452 v -2.29395 H 75.358756 v -40.733 h -2.603937 z"
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:61.99848557px;font-family:Cantarell;-inkscape-font-specification:'Cantarell Light';fill:#9b0031;fill-opacity:1;stroke-width:0.25832701"
+         id="path1540" />
+      <path
+         d="m 113.59729,131.22429 h 2.60394 v -19.96351 l 14.56964,-23.06344 h -2.85193 l -12.89568,20.89349 -13.01968,-20.89349 h -3.099929 l 14.693639,23.06344 z"
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:61.99848557px;font-family:Cantarell;-inkscape-font-specification:'Cantarell Light';fill:#9b0031;fill-opacity:1;stroke-width:0.25832701"
+         id="path1542" />
+      <path
+         d="m 138.7493,131.22429 h 2.60394 v -16.05761 h 8.80378 c 8.86579,0 14.69365,-5.45587 14.69365,-13.57767 0,-7.997802 -5.64187,-13.39167 -14.13566,-13.39167 H 138.7493 Z m 11.53172,-40.795005 c 7.12983,0 11.90371,4.649887 11.90371,11.717715 0,6.75783 -4.2159,10.78774 -11.46972,10.78774 h -9.36177 V 90.429285 Z"
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:61.99848557px;font-family:Cantarell;-inkscape-font-specification:'Cantarell Light';fill:#9b0031;fill-opacity:1;stroke-width:0.25832701"
+         id="path1544" />
+      <path
+         d="m 175.19763,131.22429 h 2.60394 V 88.19734 h -2.60394 z"
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:61.99848557px;font-family:Cantarell;-inkscape-font-specification:'Cantarell Light';fill:#9b0031;fill-opacity:1;stroke-width:0.25832701"
+         id="path1546" />
+      <path
+         d="m 201.47337,131.22429 h 2.60394 V 90.429285 h 14.94163 V 88.19734 h -32.42521 v 2.231945 h 14.87964 z"
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:61.99848557px;font-family:Cantarell;-inkscape-font-specification:'Cantarell Light';fill:#9b0031;fill-opacity:1;stroke-width:0.25832701"
+         id="path1548" />
+      <path
+         d="m 245.85169,131.84427 c 4.0919,0 8.61779,-0.99197 12.4617,-2.66593 l -0.55799,-1.92195 c -3.53391,1.42596 -7.81181,2.29394 -11.34572,2.29394 -11.03573,0 -18.41355,-8.0598 -18.41355,-20.08751 0,-11.84171 7.31582,-19.467524 18.66154,-19.467524 3.59591,0 7.50182,0.743982 11.03573,2.231946 l 0.74398,-1.983952 c -3.40991,-1.673959 -7.50181,-2.541938 -11.59371,-2.541938 -12.89569,0 -21.51348,9.051779 -21.51348,22.567448 0,12.95768 8.2458,21.57547 20.5215,21.57547 z"
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:61.99848557px;font-family:Cantarell;-inkscape-font-specification:'Cantarell Light';fill:#9b0031;fill-opacity:1;stroke-width:0.25832701"
+         id="path1550" />
+      <path
+         d="m 268.07428,131.22429 h 2.60393 v -21.20348 h 25.79137 v 21.20348 h 2.60394 V 88.19734 h -2.60394 v 19.52952 H 270.67821 V 88.19734 h -2.60393 z"
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:61.99848557px;font-family:Cantarell;-inkscape-font-specification:'Cantarell Light';fill:#9b0031;fill-opacity:1;stroke-width:0.25832701"
+         id="path1552" />
+    </g>
   </g>
 </svg>
