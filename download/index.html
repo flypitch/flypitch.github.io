@@ -117,7 +117,7 @@
 		<div class="archive-wrap">
 			<div class="page-content">
 				<h2 id="download-and-installation">Download and installation</h2>
-<p>To download the Flypitch project, use any of the releases listed at the <a href="https://github.com/flypitch/flypitch">project repository</a>. To compile the Flypitch project, you will need <a href="https://leanprover.github.io/download/">Lean 3.4.2</a>. Installation instructions for Lean (using <code class="highlighter-rouge">elan</code>) can be found <a href="https://github.com/leanprover-community/mathlib/blob/master/docs/elan.md">here</a>.</p>
+<p>To download the Flypitch project, use any of the releases listed at the <a href="https://github.com/flypitch/flypitch">project repository</a>. To compile the Flypitch project, you will need <a href="https://leanprover.github.io/download/">Lean 3.4.2</a>. Installation instructions for Lean can be found <a href="https://github.com/leanprover-community/mathlib/blob/master/README.md">here</a>.</p>
 
 <h3 id="building-the-project">Building the project</h3>
 <p>After cloning the repository to <code class="highlighter-rouge">flypitch</code>, navigate to <code class="highlighter-rouge">flypitch</code> and run</p>
@@ -126,7 +126,14 @@
 leanpkg build
 </code></pre></div></div>
 
-<p>The <code class="highlighter-rouge">leanpkg.toml</code> file points to a certain commit of <code class="highlighter-rouge">mathlib</code>,<sup id="fnref:1"><a href="#fn:1" class="footnote">1</a></sup> which, during the build, will be cloned into the project directory.</p>
+<p>This will additionally compile the requisite parts of <code class="highlighter-rouge">mathlib</code><sup id="fnref:1"><a href="#fn:1" class="footnote">1</a></sup>, and will take multiple minutes.</p>
+
+<p>Optionally, you can install the <code class="highlighter-rouge">update-mathlib</code> script (see <a href="https://github.com/leanprover-community/mathlib/blob/master/docs/install/linux.md">here</a> for instructions) which will download pre-built <code class="highlighter-rouge">.olean</code> files, considerably speeding up the compilation. In this case, you can instead run</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>leanpkg configure
+update-mathlib
+leanpkg build
+</code></pre></div></div>
 
 <h2 id="viewing-the-project">Viewing the project</h2>
 <p>To view the project, we recommend the use of a Lean-aware editor like <a href="https://github.com/leanprover/lean-mode">Emacs</a> or <a href="https://github.com/leanprover/vscode-lean">VSCode</a>. Among other things, like typing information, such editors can display the <em>proof state</em> inside a tactic block, making it easier to understand how theorems are being proved.</p>
